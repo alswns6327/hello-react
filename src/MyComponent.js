@@ -13,7 +13,9 @@ class MyComponent extends Component {
     }
 
     render(){
+        
         const {name, children, favoriteNumber, a} = this.props;
+        
         return(
             <>
                 <div>name : {name + children + a + " " + favoriteNumber}</div>
