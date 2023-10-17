@@ -8,6 +8,7 @@ import EventPracticeUseFunc from './EventPracticeUseFunc';
 import ValidationSample from './ValidationSample';
 import RefSample from './RefSample';
 import ScrollBox from './ScrollBox';
+import IterationSample from './IterationSample';
 
 class App extends Component {
   render() {
@@ -20,13 +21,14 @@ class App extends Component {
         
         {/* <ValidationSample></ValidationSample> */}
 
-        <ScrollBox ref={ref => this.scrollBox = ref}></ScrollBox>
+        {/* <ScrollBox ref={ref => this.scrollBox = ref}></ScrollBox>
         <button
           onClick={()=>{this.scrollBox.scrollToBottom()}}
         >
           맨 밑으로
-        </button>
+        </button> */}
         
+        <IterationSample></IterationSample>
       </>
     );
   }
