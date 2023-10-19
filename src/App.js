@@ -9,6 +9,7 @@ import ValidationSample from './ValidationSample';
 import RefSample from './RefSample';
 import ScrollBox from './ScrollBox';
 import IterationSample from './IterationSample';
+import LifeCycleSample from './LifeCycleSample';
 
 class App extends Component {
   render() {
@@ -28,7 +29,8 @@ class App extends Component {
           맨 밑으로
         </button> */}
         
-        <IterationSample></IterationSample>
+        {/* <IterationSample></IterationSample> */}
+        <LifeCycleSample></LifeCycleSample>
       </>
     );
   }
